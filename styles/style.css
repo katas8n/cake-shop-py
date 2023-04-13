@@ -21,6 +21,7 @@ li {
     width: 1512px;
     padding: calc(var(--padding-l) + 6px);
     font-family: var(--primary-ff);
+    overflow-x: hidden;
 }
 
 .logo {
@@ -93,4 +94,34 @@ li {
 .about-us > .info > .paragraph {
     margin-top: var(--margin-l);
     font-size: var(--fs-s);
+}
+
+.benefit-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: var(--margin-m);
+} 
+
+.benefit-title {
+    font-size: var(--fs-s);
+}
+
+.benefit-paragraph {
+    margin-top: var(--margin-s);
+}
+
+.product__title {
+    font-size: var(--fs-m);
+    margin-top: var(--margin-s);
+    display: flex;
+    justify-content: center;
+}
+
+.product__image {
+    width: 440px;
+    height: 440px;
+}
+
+.banner__image {
+    width : 1512px;
 }

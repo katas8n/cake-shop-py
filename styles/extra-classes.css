@@ -24,3 +24,7 @@
 .paragraph {
     color: var(--primary-text-color);
 }
+
+.mt-60 {
+    margin-top: var(--margin-xxl);
+}
