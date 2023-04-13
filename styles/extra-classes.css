@@ -10,6 +10,12 @@
     align-items: center;
 }
 
+.flex-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .section {
     margin-top: var(--margin-xxxl);
 }
@@ -27,4 +33,28 @@
 
 .mt-60 {
     margin-top: var(--margin-xxl);
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.fs-5 {
+    font-size: var(--fs-xl);
+}
+
+.fs-4 {
+    font-size: var(--fs-l);
+}
+
+.fs-3 {
+    font-size: var(--fs-m);
+}
+
+.fs-2 {
+    font-size: var(--fs-s);
+}
+
+.fs-1 {
+    font-size: var(--fs-xs);
 }
